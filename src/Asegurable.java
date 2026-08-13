@@ -1,5 +1,4 @@
-public class Asegurable {
-    public double calcularPrima() {
-        return 0;
-    }
+public interface Asegurable {
+    double calcularPrima();
+    String numeroPoliza();
 }
